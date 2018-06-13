@@ -62,13 +62,15 @@ byRank:focus{
 }
 
 .Main{
-  margin-left: 25px;
-  
-  color: grey;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
 }
 
 .Main1{
-  display: flex;
-  border: 1px dotted black;
-  margin: 10px;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  padding: 5px;
+  margin: 15px;
 }

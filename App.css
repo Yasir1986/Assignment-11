@@ -74,3 +74,8 @@ byRank:focus{
   padding: 5px;
   margin: 15px;
 }
+
+.Main1:hover{ 
+  outline: 2px solid grey;
+  font-weight: bold;
+}

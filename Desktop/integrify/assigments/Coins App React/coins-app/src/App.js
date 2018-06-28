@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import Container from './Components/Container';
 // import Cards from './Components/Cards';
 import './App.css';
+import Footer from './Components/Footer'
 
 class App extends Component {
 
@@ -87,7 +88,10 @@ sortByRank(){
     
         
         <Container coins = {this.state.mainData}/>
+
+
         
+         <Footer /> 
 
       </div> 
     ); 

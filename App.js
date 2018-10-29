@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
-// import Buttons from './Components/Buttons';
-// import FetchData from './Components/FetchData';
 import Container from './Components/Container';
-// import Cards from './Components/Cards';
 import './App.css';
 
 class App extends Component {
 
   constructor(props) {
     super(props);
-    // const myData =[];
     this.state = {
         mainData: []
     }
